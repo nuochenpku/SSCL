@@ -72,7 +72,7 @@ Arguments for the evaluation script are as follows,
 
 **Data**
 
-For unsupervised SimCSE, we sample 1 million sentences from English Wikipedia; for supervised SimCSE, we use the SNLI and MNLI datasets. You can run `data/download_wiki.sh` and `data/download_nli.sh` to download the two datasets.
+ You can run `data/download_wiki.sh` and `data/download_nli.sh` to download the two datasets.
 
 **Training scripts**
 
