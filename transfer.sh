@@ -1,1 +1,1 @@
-python simcse_to_huggingface.py --path result/roberta-base-simcse-neg1
+python sscl_to_huggingface.py --path result/sscl-bert-base-ckpt
