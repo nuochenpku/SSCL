@@ -7,7 +7,7 @@ Our work mainly based on [SimCSE project](https://github.com/princeton-nlp/SimCS
 
   - [Overview](#overview)
   - [Getting Started](##setup)
-  - [Train SimCSE](#training)
+  - [Train SSCL](#training)
     - [Requirements](#requirements)
     - [Evaluation](#evaluation)
     - [Training](#training)
@@ -90,7 +90,7 @@ Arguments for the evaluation script are as follows,
 
 All the other arguments are standard Huggingface's `transformers` training arguments. Some of the often-used arguments are: `--output_dir`, `--learning_rate`, `--per_device_train_batch_size`. In our example scripts, we also set to evaluate the model on the STS-B development set (need to download the dataset following the [evaluation](#evaluation) section) and save the best checkpoint.
 
-For results in the paper, we use Nvidia 3090 GPUs with CUDA 11. Using different types of devices or different versions of CUDA/other softwares may lead to slightly different performance.
+For results in the paper, we use Nvidia A100 GPUs with CUDA 11. Using different types of devices or different versions of CUDA/other softwares may lead to slightly different performance.
 
 
 
