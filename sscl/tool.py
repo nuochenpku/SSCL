@@ -235,7 +235,7 @@ if __name__=="__main__":
     ]
 
     model_name = "princeton-nlp/sup-simcse-bert-base-uncased"
-    simcse = SimCSE(model_name)
+    simcse = SSCL(model_name)
 
     print("\n=========Calculate cosine similarities between queries and sentences============\n")
     similarities = simcse.similarity(example_queries, example_sentences)
