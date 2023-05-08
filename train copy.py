@@ -85,7 +85,7 @@ class ModelArguments:
         },
     )
 
-    # SSCL's arguments
+    # SimCSE's arguments
     temp: float = field(
         default=0.05,
         metadata={
@@ -126,12 +126,6 @@ class ModelArguments:
         default=False,
         metadata={
             "help": "Use MLP only during training"
-        }
-    )
-    do_neg: bool = field(
-        default=False,
-        metadata={
-            "help": "Whether to use negatives."
         }
     )
 
