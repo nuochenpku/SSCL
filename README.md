@@ -1,5 +1,5 @@
 # Alleviating Over-smoothing for Unsupervised Sentence Representation
-This is the project of our ACL 2023 paper: Alleviating Over-smoothing for Unsupervised Sentence Representation.
+This is the project of our ACL 2023 paper: [Alleviating Over-smoothing for Unsupervised Sentence Representation](https://arxiv.org/pdf/2305.06154).
 
 Our work mainly based on [SimCSE project](https://github.com/princeton-nlp/SimCSE), thanks to SimCSE!
 
