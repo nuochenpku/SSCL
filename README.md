@@ -102,11 +102,11 @@ Our saved checkpoints are slightly different from Huggingface's pre-trained chec
 
 Please cite our paper if you use SSCL in your work:
 
-<!-- ```bibtex
-@inproceedings{gao2021simcse,
-   title={{SimCSE}: Simple Contrastive Learning of Sentence Embeddings},
-   author={Gao, Tianyu and Yao, Xingcheng and Chen, Danqi},
-   booktitle={Empirical Methods in Natural Language Processing (EMNLP)},
-   year={2021}
+```bibtex
+@article{chen2023alleviating,
+  title={Alleviating Over-smoothing for Unsupervised Sentence Representation},
+  author={Chen, Nuo and Shou, Linjun and Gong, Ming and Pei, Jian and Cao, Bowen and Chang, Jianhui and Jiang, Daxin and Li, Jia},
+  journal={arXiv preprint arXiv:2305.06154},
+  year={2023}
 }
-``` -->
+```
