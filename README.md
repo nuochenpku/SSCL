@@ -103,10 +103,23 @@ Our saved checkpoints are slightly different from Huggingface's pre-trained chec
 Please cite our paper if you use SSCL in your work:
 
 ```bibtex
-@article{chen2023alleviating,
-  title={Alleviating Over-smoothing for Unsupervised Sentence Representation},
-  author={Chen, Nuo and Shou, Linjun and Gong, Ming and Pei, Jian and Cao, Bowen and Chang, Jianhui and Jiang, Daxin and Li, Jia},
-  journal={arXiv preprint arXiv:2305.06154},
-  year={2023}
+@inproceedings{chen-etal-2023-alleviating,
+    title = "Alleviating Over-smoothing for Unsupervised Sentence Representation",
+    author = "Chen, Nuo  and
+      Shou, Linjun  and
+      Pei, Jian  and
+      Gong, Ming  and
+      Cao, Bowen  and
+      Chang, Jianhui  and
+      Li, Jia  and
+      Jiang, Daxin",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.197",
+    pages = "3552--3566",
+    abstract = "Currently, learning better unsupervised sentence representations is the pursuit of many natural language processing communities. Lots of approaches based on pre-trained language models (PLMs) and contrastive learning have achieved promising results on this task. Experimentally, we observe that the over-smoothing problem reduces the capacity of these powerful PLMs, leading to sub-optimal sentence representations. In this paper, we present a Simple method named Self-Contrastive Learning (SSCL) to alleviate this issue, which samples negatives from PLMs intermediate layers, improving the quality of the sentence representation. Our proposed method is quite simple and can be easily extended to various state-of-the-art models for performance boosting, which can be seen as a plug-and-play contrastive framework for learning unsupervised sentence representation. Extensive results prove that SSCL brings the superior performance improvements of different strong baselines (e.g., BERT and SimCSE) on Semantic Textual Similarity and Transfer datasets",
 }
 ```
